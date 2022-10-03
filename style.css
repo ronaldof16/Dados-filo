@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    background: hsl(229, 57%, 11%)
+}
+
+body {
+    
+}
+
+.bg-desktop {
+    position: absolute;
+    top: 50%;
+}
+
+footer {
+    text-align: center;
+}
