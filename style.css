@@ -1,11 +1,49 @@
 * {
     margin: 0;
-    background: hsl(229, 57%, 11%)
+    background: hsl(229, 57%, 11%);
+    box-sizing: border-box;
 }
 
 .bg-desktop {
     position: absolute;
     top: 50%;
+}
+
+section {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.esquerda {
+    width: 300px;
+    height: 200px;
+    background: hsl(228, 56%, 26%);
+    border: none;
+    border-radius: 10px 100px 10px 10px;
+}
+
+.logo {
+    display: block;
+    background: none;
+    margin: 30px;
+}
+
+.figuras {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.direita {
+    width: 400px;
+    height: 150px;
+    background: hsl(228, 56%, 26%);
+    border: none;
+    border-radius: 10px;
 }
 
 footer {
