@@ -1,7 +1,10 @@
 * {
     margin: 0;
     background: hsl(229, 57%, 11%);
-    box-sizing: border-box;
+}
+
+body {
+    font-size: 14px;
 }
 
 .bg-desktop {
@@ -10,7 +13,7 @@
 }
 
 section {
-    height: 100%;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,6 +26,7 @@ section {
     background: hsl(228, 56%, 26%);
     border: none;
     border-radius: 10px 100px 10px 10px;
+    z-index: 1;
 }
 
 .logo {
@@ -35,15 +39,46 @@ section {
     padding: 10px;
     border: none;
     border-radius: 5px;
-    margin: 10px;
+    margin-left: 20px;
 }
 
 .direita {
-    width: 400px;
+    width: 450px;
     height: 150px;
     background: hsl(228, 56%, 26%);
     border: none;
     border-radius: 10px;
+    z-index: 1;
+    margin-top: 50px;
+}
+
+p {
+    color: white;
+    margin: 40px 0 20px 20px;
+    background: hsl(228, 56%, 26%);
+}
+
+.carga {
+    width: 380px;
+    height: 15px;
+    margin-left: 20px;
+    border-radius: 50px;
+}
+
+.cargaAtual {
+    width: 270px;
+    height: 15px;
+    border-radius: 50px;
+    background: linear-gradient(to right, rgb(94, 172, 94), rgb(1, 99, 61));
+    border: 1px solid ;
+}
+
+.bolinha {
+    width: 11px;
+    height: 11px;
+    border-radius: 50px;
+    margin: 2px 0 0 258px;
+    background: white;
 }
 
 footer {
