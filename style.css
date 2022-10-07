@@ -1,10 +1,12 @@
 * {
     margin: 0;
     background: hsl(229, 57%, 11%);
+    max-height: 100%;
 }
 
 body {
     font-size: 14px;
+    font-family: 'Raleway', sans-serif;
 }
 
 .bg-desktop {
@@ -18,6 +20,7 @@ section {
     justify-content: center;
     align-items: center;
     column-gap: 30px;
+    padding-left: 300px;
 }
 
 .esquerda {
@@ -52,7 +55,7 @@ section {
     margin-top: 50px;
 }
 
-p {
+.frase {
     color: white;
     margin: 40px 0 20px 20px;
     background: hsl(228, 56%, 26%);
@@ -81,6 +84,60 @@ p {
     background: white;
 }
 
+.minima {
+    display: flex;
+    background: hsl(228, 56%, 26%);
+    justify-content: space-between;
+    margin: 10px 50px 0 20px;
+    color: white;
+}
+
+.maxima {
+    background: hsl(228, 56%, 26%);
+}
+
+.balao {
+    width: 140px;
+    height: 60px;
+    background: white;
+    z-index: 1;
+    position: relative;
+    right: 220px;
+    bottom: 50px;
+    border-radius: 10px 10px 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.numero {
+    background: white;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.texto {
+    background: white;
+    color: hsl(229, 7%, 55%);
+}
+
+.triangulo {
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 0px solid transparent;
+    border-top: 20px solid white;
+    z-index: 1;
+    position: relative;
+    right: 270px;
+    bottom: 10px;
+    background: hsl(228, 56%, 26%);
+}
+
 footer {
     text-align: center;
+    position: relative;
+    color: white;
+    background-color: transparent;
 }

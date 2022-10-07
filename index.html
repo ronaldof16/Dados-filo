@@ -6,6 +6,9 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <title>Componente de armazenamento de dados filo</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
 </head>
 <body>
   <main>
@@ -17,19 +20,30 @@
           <img class="figuras" src="./images/icon-folder.svg" alt="">
           <img class="figuras" src="./images/icon-upload.svg">
         </div>
+
         <div class="direita">
-          <p>You've used 815 GB of your storage</p>
+          <p class="frase">You've used 815 GB of your storage</p>
           <div class="carga">
             <div class="cargaAtual">
               <div class="bolinha"></div>
             </div>
           </div>
+            <div class="minima">0 GB
+              <div class="maxima">1000 GB</div>
+            </div>
         </div>
+
+        <div class="balao">
+          <div class="numero">185</div>
+          <div class="texto">GB LEFT</div>
+        </div>
+
+        <div class="triangulo"></div>
     </section>
   </main>
   <footer>
-    <!--<p>Challenge by<a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="https://github.com/ronaldof16/Dados-filo.git">Ronaldo Fernando</a>.</p>-->
+    <p>Challenge by<a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/ronaldof16/Dados-filo.git">Ronaldo Fernando</a>.</p>
   </footer>
 </body>
 </html>
