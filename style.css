@@ -1,12 +1,11 @@
 * {
     margin: 0;
-    background: hsl(229, 57%, 11%);
-    max-height: 100%;
 }
 
 body {
     font-size: 14px;
     font-family: 'Raleway', sans-serif;
+    background: hsl(229, 57%, 11%);
 }
 
 .bg-desktop {
@@ -43,6 +42,7 @@ section {
     border: none;
     border-radius: 5px;
     margin-left: 20px;
+    background: hsl(229, 57%, 11%);
 }
 
 .direita {
@@ -66,6 +66,7 @@ section {
     height: 15px;
     margin-left: 20px;
     border-radius: 50px;
+    background: hsl(229, 57%, 11%);
 }
 
 .cargaAtual {
@@ -140,4 +141,50 @@ footer {
     position: relative;
     color: white;
     background-color: transparent;
+}
+
+footer a {
+    color: rgb(0, 255, 55);
+}
+
+@media screen  and (max-width: 480px){
+    * {
+        padding: 0:
+    }
+
+    section {
+        flex-direction: column;
+        padding-left: 0;
+        height: 75vh;
+        margin: 40px 0;
+    }
+
+    .bg-desktop {
+        width: 0;   
+    }
+
+    .carga {
+        width: 200px;
+    }
+
+    .cargaAtual {
+        width: 150px;
+    }
+
+    .bolinha {
+        margin-left: 140px;
+    }
+
+    .balao {
+        left: 0;
+        top: 1px;
+    }
+
+    .triangulo {
+        position: relative;
+    }
+
+    .direita {
+        width: 300px;
+    }
 }
