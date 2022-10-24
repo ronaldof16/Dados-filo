@@ -2,7 +2,7 @@
 
 Link da página: <https://ronaldof16.github.io/Dados-filo/> 
 
-![design do projeto](./images/design-dados.png)
+![design do projeto](./assets/images/design-dados.png)
 
 ## Sobre
 
